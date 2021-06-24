@@ -1,0 +1,17 @@
+{
+    "@@locale": "en",
+    "@@last_modified": "2020-11-17T23:20:52+01:00",
+    "title": "My Child’s Smart Sensing…",
+    "connected": "Connected",
+    "time": "9:41",
+    "soothing_response": "Soothing Response",
+    "soothing": "Soothing",
+    "music_and_sound": "Music & Sound",
+    "customize": "Customize",
+    "vibe_medium": "Vibe: Medium",
+    "sound_noise": "Sound: Noise",
+    "southing_resp_info": "Press on the soothing response button on the bassinet to activate Soothing Response.",
+    "soothing_resp_off": "Soothing Response is off",
+    "i": "i",
+    "hello_user": "Hello {name}"
+}
