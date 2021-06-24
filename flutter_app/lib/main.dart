@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -10,8 +9,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      localizationsDelegates: AppLocalizations.localizationsDelegates, // important
-      supportedLocales: AppLocalizations.supportedLocales, // important
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -96,51 +93,8 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                  AppLocalizations.of(context).title
-              ),
-            ),Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                  AppLocalizations.of(context).connected
-              ),
-            ),Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                  AppLocalizations.of(context).soothing_response
-              ),
-            ),Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                  AppLocalizations.of(context).soothing
-              ),
-            ),Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                  AppLocalizations.of(context).music_and_sound
-              ),
-            ),Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                  AppLocalizations.of(context).customize
-              ),
-            ),Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                  AppLocalizations.of(context).vibe_medium
-              ),
-            ),Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                  AppLocalizations.of(context).sound_noise
-              ),
-            ),Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                  AppLocalizations.of(context).soothing_resp_off
-              ),
+            Text(
+              'You have pushed the button this many times:',
             ),
             Text(
               '$_counter',
